@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/Index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>IsaacDs</title>
+    <link rel="icon" href="http://127.0.0.1:5500/icon.png">
+    <link rel="stylesheet" href="./IsaacDs_files/style.css" type="text/css">
+
+</head>
+
+<body>
+
+    <scroll-page id="scroll"></scroll-page>
+
+    
+
+    <div class="contmain">
+        <img class="myself" src="./IsaacDs_files/myself.png" alt="">
+        <h1>Hello, i'm Isaac Da Silva, i'm a begginer web developer!!</h1>
+    </div>
+
+    <div class="container-menu">
+
+        <div class="cont-menu">
+
+            <nav>
+                <a href="http://127.0.0.1:5500/Index.html">Inicio</a>
+                <a href="http://127.0.0.1:5500/aboutme.html">About me</a>
+                <a href="http://127.0.0.1:5500/myprojects.html">Projects</a>
+                <a href="http://127.0.0.1:5500/contact.html">Contact</a>
+            </nav>
+
+        </div>
+    </div>
+
+    <div class="contaboutme">
+
+        <h1>About me</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae nostrum dolores natus debitis. Reiciendis
+            voluptate, temporibus ullam et voluptates ratione, cum, id quisquam accusantium debitis qui quia aliquid est
+            nulla. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quibusdam ut fuga at, omnis nemo. Qui
+            impedit delectus dolor commodi quisquam rerum atque voluptatibus repellat adipisci incidunt, enim quam
+            assumenda! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptate quisquam placeat
+            voluptatibus expedita architecto nostrum optio fugiat laborum non maxime, velit doloremque, earum dicta ad
+            quae ut sit. Molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dignissimos
+            excepturi eos saepe voluptates dolorem. Dolores facilis fugiat in eligendi numquam temporibus sit autem nemo
+            laudantium, quo commodi! A, beatae!</p>
+
+
+    </div>
+
+    <main class="mainmyprojects">
+        <div class="contmyprojects">
+            <div class="myprojecth2">
+            </div>
+
+            <div class="pages">
+                <div>
+                    <img src="./IsaacDs_files/frontend.png" alt="">
+                    <h5>Description</h5>
+                    <button>View more</button>
+                </div>
+                <div>
+                    <img src="./IsaacDs_files/frontend.png" alt="">
+                    <h5>Description</h5>
+                    <button>View more</button>
+                </div>
+                <div>
+                    <img src="./IsaacDs_files/frontend.png" alt="">
+                    <h5>Description</h5>
+                    <button>View more</button>
+                </div>
+                <div>
+                    <img src="./IsaacDs_files/frontend.png" alt="">
+                    <h5>Description</h5>
+                    <button>View more</button>
+                </div>
+
+
+            </div>
+
+        </div>
+    </main>
+
+    <div class="contcontact">
+
+        <div class="contact">
+
+            <label for="name">Name:</label>
+            <input type="text">
+            <label for="name">Email:</label>
+            <input type="name" name="email" class="inputcolor">
+            
+            <label for="name">Message:</label>
+            <textarea name="cuerpo" cols="30" rows="10"></textarea>
+            <button>Send</button>
+        
+        </div>
+
+        
+
+    </div>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

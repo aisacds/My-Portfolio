@@ -1,0 +1,258 @@
+body {
+    background-image: url("bodyback3.png");
+    background-size: cover;
+    background-color: rgb(70, 70, 70);
+    
+}
+
+.container-menu {
+    position: absolute;
+    box-sizing: content-box;
+    width: 99%;
+    background: rgba(66, 1, 1, 0);
+    top: 0;
+
+}
+
+.cont-menu {
+    width: 99%;
+    height: 120px;
+    border-right: 2px;
+    border-color: rgb(114, 1, 1);
+    margin-top: 15px;
+}
+
+.cont-menu nav {
+    padding-left: 50%;
+
+}
+
+.cont-menu nav a {
+    display: inline;
+
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+    margin-right: 40px;
+    border-left: solid transparent;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.cont-menu a:hover {
+    border-left: solid white;
+    background-color: rgb(31, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+img.myself {
+    width: 200px;
+    margin: 20px;
+    border-radius: 300px;
+    border-style: inset;
+    border-color: rgb(107, 0, 0);
+}
+
+div.contmain {
+    box-sizing: content-box;
+    margin: 340px 150px 400px 250px;
+}
+
+div.contmain h1 {
+    position: absolute;
+    font-size: 90px;
+    margin-top: -20px;
+    margin-left: 10px;
+    padding-right: 0px;
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+    font-style: italic; 
+    text-shadow: 5px 5px 10px rgb(161, 3, 3);
+}
+
+div.contmain span {
+    color: rgb(202, 0, 0);
+    text-shadow: none;
+    text-decoration: blanchedalmond;
+}
+
+div.contmain h3 {
+    box-sizing: content-box;
+    font-style: italic;
+    color: rgb(202, 0, 0);
+    margin-left: 560px;
+    padding-left: 60px;
+    padding-bottom: 160px;
+    display: block;
+    transform: rotate(-45deg);
+    
+}
+
+div.contaboutme h1 {
+    text-align: center;
+    float: right;
+}
+
+
+div.contaboutme {
+    margin: 240px 150px 100px 150px;
+    color: white;
+    padding: 10px;
+    text-align: justify;
+    border-color: rgb(70, 1, 1);
+    font-style: italic;
+    font-size: larger;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main.mainmyprojects {
+    justify-content: center;
+}
+
+div.contmyprojects {
+    margin: 240px 150px 100px 150px;
+    color: white;
+    padding: 10px;
+    text-align: justify;
+    border-style: inset;
+    border-color: rgb(70, 1, 1);
+    font-style: italic;
+    font-size: x-large;
+    width: 900px;
+    height: 400px;
+}
+
+.myprojecth2 {
+    text-align: center;
+}
+div.pages {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+div.pages div {
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    background: rgba(117, 1, 1, 0.438);
+}
+
+a.viewmore {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+
+div.contcontact {
+    display: flex;
+    justify-content: center;
+}
+
+div.contact {
+    margin: 240px 150px 100px 150px;
+    color: white;
+    padding: 50px;
+    border-style: inset;
+    border-color: rgb(70, 1, 1);
+    font-style: italic;
+    font-size: x-large;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    float: inline-start;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    
+}
+
+button {
+    height: 300px;
+    width: 310px;
+    margin-top: 30px;
+    font-style: italic;
+    border-radius: 20px;
+    background-color: rgb(151, 151, 151);
+    
+}
+
+textarea {
+    padding-top: 20px;
+    width: 310px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+div.pages div {
+    height: 320px;
+    background-color: black;
+
+}
+
+div.pages h5 {
+    margin-top: 10px;
+}
+
+div.pages button {
+    margin-top: 0px;
+    background-color: rgb(99, 1, 1);
+    font-style: italic;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+div.pages img {
+    width: 200px;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 99%;
+    position: absolute;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(68, 68, 68);
+}
+
+footer img {
+    width: 25px;
+    margin: 0px 10px 10px;
+    background-color: rgb(228, 228, 228);
+    padding: 8px;
+    border-radius: 30px;
+}
+
+footer h3 {
+    text-align: center;
+    font-style: oblique;
+}
