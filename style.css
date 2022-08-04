@@ -2,7 +2,7 @@ body {
     background-image: url("bodyback3.png");
     background-size: cover;
     background-color: rgb(70, 70, 70);
-    
+    min-height: 100vh;
 }
 
 .container-menu {
